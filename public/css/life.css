@@ -1,0 +1,43 @@
+body { font: 600 14px Helvetica; }
+
+#container { margin-left: 20px; width: 1320px; }
+#sidebar { font-size: 32px; margin: 20px 20px 0 0; position: fixed; width: 160px; }
+#maincol { float: right; width: 1140px; }
+
+.twocol #container { width: 940px; }
+.twocol #maincol { width: 760px; }
+
+.photo { display: block; float: left; margin: 20px 20px 0 0; overflow: hidden; }
+.photo .img { height: 240px; width: 360px; }
+.threebyfour { height: 240px; }
+.threebyfour .img { height: 270px; }
+.vertical .img { height: 540px; }
+.vertical.threebyfour .img { height: 480px; }
+
+.fidget { height: 280px; width: 360px; }
+.fidget .img { height: 280px; width: auto; }
+
+.span2 { height: 500px; width: 740px; }
+.span2 .img { height: 500px; width: auto; }
+.span2.threebyfour .img { height: 555px; }
+
+/*
+.photo { display: block; float: left; margin: 20px 20px 0 0; overflow: hidden; }
+.photo .img { height: 240px; width: 360px; }
+.threebyfour { height: 240px; }
+.threebyfour .img { height: 270px; }
+.vertical { height: 500px; width: 360px; }
+.vertical .img { height: 540px; }
+.vertical.threebyfour .img { height: 500px; width: 375px; }
+.span2 { height: 500px; width: 740px; }
+.span2 .img { height: 500px; width: 750px; }
+.span2.threebyfour .img { height: 555px; }
+*/
+
+.ponder { margin: 20px 20px 0 0; width: 360px; }
+.unit { font-size: 14px; }
+.font32 { font-size: 32px; }
+
+
+.focus .photo { height: auto; width: 1140px; }
+/*.focus .photo.vertical { height: 100%; width: auto; }*/
